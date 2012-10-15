@@ -1,0 +1,35 @@
+<resources>
+
+
+	<string name="menu_settings">音の切り替え</string>
+	<string name="title_activity_niri">にりぃ</string>
+	<string name="ok">OK</string>
+	<string name="no">NO</string>
+	<string name="reset_message">カウントをリセットしますか？</string>
+	<string name="toast_reset">リセットしました</string>
+	<string name="tweet">つぶやく</string>
+	<string name="reset">りせっと</string>
+	<string name="sound_select">音声を選択して下さい。</string>
+	<string name="twitter_select">ツイッターの設定</string>
+	<string name="account">アカウント</string>
+	<string name="loading">少々お待ち下さい。</string>
+	<string name="niri">にりぃ</string>
+	<string name="sini_niri">しににりぃ</string>
+	<string name="deji_niri">でーじにりぃ</string>
+	<string name="maru_niri">まるにりぃ</string>
+	<string name="tweet_post">つぶやきました</string>
+	<string name="login">ツイッターの確証画面へ</string>
+	<string name="tweet_post_widget">ツイッターへの投稿</string>
+	<string name="text">回ごとにツイートする\n</string>
+	<string name="webloading">接続中です</string>
+	
+	<string name="error_requesttoken">RequestTokenを取得できませんでした。</string>
+	<string name="error_twitterupdate">投稿に失敗しました。</string>
+	<string name="ten">10</string>
+
+	
+	<string name="today">本日</string>
+	<string name="kai">"回目の "</string>
+	<string name="desu">です #</string>
+	
+</resources>

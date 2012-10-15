@@ -1,0 +1,9 @@
+*.project
+*.properties
+*.txt
+*.classpath
+
+
+bin/
+gen/
+libs/

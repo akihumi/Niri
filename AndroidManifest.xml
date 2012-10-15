@@ -1,0 +1,65 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="jp.ac.itc.s11013.niri"
+	android:versionCode="2"
+	android:versionName="1.1" >
+
+	<uses-sdk
+		android:minSdkVersion="8"
+		android:targetSdkVersion="15" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+
+	<application
+		android:icon="@drawable/icon_louncher_say"
+		android:label="@string/title_activity_niri"
+		android:theme="@style/AppTheme" >
+		<activity
+			android:name="jp.ac.itc.s11013.niri.Niri"
+			android:label="@string/title_activity_niri" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="jp.ac.itc.s11013.niri.WidgetConfigure"
+			android:label="@string/title_activity_niri" android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".NiriCallback"
+			android:label="@string/title_activity_niri"
+			android:launchMode="singleInstance"
+			android:noHistory="true" >
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+
+				<data android:scheme="callback" android:host="NiriCallback"/>
+			</intent-filter>
+		</activity>
+
+		<receiver
+			android:name="jp.ac.itc.s11013.niri.NiriWidget"
+			android:label="@string/title_activity_niri" >
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+
+			<meta-data
+				android:name="android.appwidget.provider"
+				android:resource="@xml/widget" />
+		</receiver>
+
+		<service android:name="jp.ac.itc.s11013.niri.ServiceNiri" >
+			<intent-filter>
+				<action android:name="VIEW_CLICK_ACTION" />
+			</intent-filter>
+		</service>
+	</application>
+
+</manifest>

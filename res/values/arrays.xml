@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<array name="number">
+		<item>@drawable/green_zero</item>
+		<item>@drawable/green_one</item>
+		<item>@drawable/green_two</item>
+		<item>@drawable/green_three</item>
+		<item>@drawable/green_four</item>
+		<item>@drawable/green_five</item>
+		<item>@drawable/green_six</item>
+		<item>@drawable/green_seven</item>
+		<item>@drawable/green_eight</item>
+		<item>@drawable/green_nine</item>
+	</array>
+	<array name="yellow_number">
+		<item>@drawable/yellow_zero</item>
+		<item>@drawable/yellow_one</item>
+		<item>@drawable/yellow_two</item>
+		<item>@drawable/yellow_three</item>
+		<item>@drawable/yellow_four</item>
+		<item>@drawable/yellow_five</item>
+		<item>@drawable/yellow_six</item>
+		<item>@drawable/yellow_seven</item>
+		<item>@drawable/yellow_eight</item>
+		<item>@drawable/yellow_nine</item>
+	</array>
+	<array name="red_number">
+		<item>@drawable/red_zero</item>
+		<item>@drawable/red_one</item>
+		<item>@drawable/red_two</item>
+		<item>@drawable/red_three</item>
+		<item>@drawable/red_four</item>
+		<item>@drawable/red_five</item>
+		<item>@drawable/red_six</item>
+		<item>@drawable/red_seven</item>
+		<item>@drawable/red_eight</item>
+		<item>@drawable/red_nine</item>
+	</array>
+
+	<string-array name="widget_audio_list">
+		<item>niri</item>
+		<item>sini_niri</item>
+		<item>deji_niri</item>
+		<item>maru_niri</item>
+	</string-array>
+
+</resources>

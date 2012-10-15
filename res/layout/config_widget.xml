@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout1"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" >
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/padding_medium"
+			android:background="#A9A9A9"
+			android:text="@string/sound_select"
+			android:textColor="#000000" />
+
+		<Spinner
+			android:id="@+id/config_spinner"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/padding_medium"
+			android:entries="@array/widget_audio_list" />
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/padding_medium"
+				android:background="#A9A9A9"
+				android:text="@string/twitter_select"
+				android:textColor="#000000" />
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/padding_medium" >
+
+				<Button
+					android:id="@+id/post_number"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:background="@drawable/button_frame_widget"
+					android:onClick="clickButton"
+					android:paddingBottom="@dimen/padding_medium"
+					android:text="@string/ten"
+					android:textSize="20sp" />
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="@dimen/padding_medium"
+					android:layout_weight="1"
+					android:text="@string/text"
+					android:textSize="20sp" />
+
+			</LinearLayout>
+
+			<Button
+				android:id="@+id/widget_login"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="@dimen/padding_medium"
+				android:onClick="clickButton"
+				android:text="@string/login" />
+
+			<ToggleButton
+				android:id="@+id/post_switch"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/padding_medium"
+				android:onClick="toggle"
+				android:textOff="@string/tweet_post_widget"
+				android:textOn="@string/tweet_post_widget" />
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/ok"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:onClick="clickButton"
+		android:text="@string/ok" />
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<resources>
+
+	<string name="menu_settings">change sound</string>
+	<string name="title_activity_niri">niri</string>
+	<string name="ok">OK</string>
+	<string name="no">NO</string>
+	<string name="reset_message">do you want to reset counter？</string>
+	<string name="toast_reset">reset!</string>
+	<string name="tweet">tweet</string>
+	<string name="reset">reset</string>
+	<string name="sound_select">please select the sound</string>
+	<string name="twitter_select">twitter settings</string>
+	<string name="account">account</string>
+	<string name="niri">niri</string>
+	<string name="sini_niri">sini_niri</string>
+	<string name="deji_niri">deji_niri</string>
+	<string name="maru_niri">maru_niri</string>
+	<string name="tweet_post">tweet success!</string>
+	<string name="login">move to twitter login page</string>
+	<string name="tweet_post_widget">post twitter</string>
+	<string name="text">:the number every touch\n when to post to twitter.</string>
+	<string name="webloading">network loading</string>
+	<string name="loading">loading…</string>
+
+	
+	<string name="error_requesttoken">failed to get the RequestToken.</string>
+	<string name="error_twitterupdate">failed to post to twitter.</string>
+	<string name="ten">10</string>
+
+	<string name="today">"today is "</string>
+	<string name="kai">" times "</string>
+	<string name="desu"> #</string>
+	
+</resources>
