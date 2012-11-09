@@ -1,8 +1,8 @@
-Niri sound application for android
+#Niri sound application for android
 ====
 Niri simple audio application
 
-#Description
+##Description
 This app is a simple sound app.
 
 "Niri". It means a tiresome word in the Okinawa in Japan. we call "Niri".
@@ -30,13 +30,13 @@ This app can put a as widget in homescreen.
 
 ※ウィジェットとして使用する場合はアプリを端末本体に置いて下さい。
 
-#How to 
-[https://play.google.com/store/apps/details?id=jp.ac.itc.s11013.niri]
+##How to 
+`https://play.google.com/store/apps/details?id=jp.ac.itc.s11013.niri`
 
-#Contact
-(https://twitter.com/akihumi2/, "@akihumi2")
+##Contact
+[@akihumi2]: https://twitter.com/akihumi2/
 
-#License
+##License
 [MIT License]
 
 Copyright (c) 2012 Akihumi Tamashiro
