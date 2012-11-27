@@ -25,8 +25,8 @@ public class NiriTwitter {
 
     public static RequestToken requestToken = null;
     public static OAuthAuthorization OAuth = null;
-    public static final String CONSUMER_KEY = "dSWiw9q7X4DlVvKYg4OTMw";
-    public static final String CONSUMER_SECRET = "n4p0fyWLJQdtswBe3ykLCo8bEP9ko71bXhQhZ34AcKk";
+    public static final String CONSUMER_KEY = "YOUR CONSUMER KEY";
+    public static final String CONSUMER_SECRET = "YOUR CONSUMER SECRET";
     public static final String CALLBACK_URL = "callback://NiriCallback";
     public static final String OAUTH_VERIFIER = "oauth_verifier";
     public static final String KEY_TOKEN = "key_token";
